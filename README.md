@@ -33,7 +33,10 @@ There is a negative overall trend between percent successful and goal amount. Ho
 ### Limitations of this dataset
 This dataset did not include any cancelled plays, and very few plays with goals over $25,000, so our insights are less confident in those areas. We would prefer a larger sample of US plays so we could look specifically at that market. 
 
-### Potential further analysis 
+### Further analysis 
+This analysis also yielded information about Kickstarter Musicals Outcomes.
+![Musicals Boxplot](Resources/Musicals Boxplot.png)
+
 We could graph percent of plays by outcome for each starting month or week of the year. 
 We could make box plots of amounts pledged, or of US Musicals by outcome to compare to our US Plays boxplot. 
 We could see if being a staff pick or spotlight is related to amounts pledged with a table comparing average amounts pledged for staff picks and non staff picks, and spotlights and non spotlights for plays in the US. 
