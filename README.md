@@ -15,8 +15,8 @@ A line chart was created to show the relationships between the outcomes and the 
 
 ### Analysis of Outcomes Based on Goals
 A line chart was created to show the relationship between currency goal amounts and the percentages of different outcomes. First, the COUNTIFS function was used to get counts of successful, failed, canceled, and total projects for each of 12 binned goal amounts. These were converted to percentages and graphed. 
-(Resources/Outcomes_vs_Goals.png)
-Resources/Outcomes_vs_Goals.png
+![Outcomes vs Goals](Resources/Outcomes_vs_Goals.png)
+!Resources/Outcomes_vs_Goals.png
 
 
 ### Challenges and Difficulties Encountered
