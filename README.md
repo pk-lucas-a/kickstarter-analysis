@@ -5,18 +5,18 @@ Analysis of Kickstarter data to uncover trends
 This analysis included outcomes based on month of crowdfunding launch date and outcomes based on goal amounts. 
 
 ### Purpose
-A playwright plans to use crowdfunding for a play in the US. A 2014-2016 Kickstarter dataset with outcomes was analyzed to uncover trends and insights to consider when setting up a new campaign. 
+A playwright plans to use crowdfunding for a play in the US. A 2014-2016 Kickstarter dataset with outcomes was analyzed to uncover trends and insights to consider when setting up a new campaign. After the new fundraising goal was launched, it came close to its fundraising goal in a short amount of time, so launch dates and goal amounts were identified as potential factors influencing outcomes. 
 
 ## Analysis and Challenges   "Explain how you performed your analysis"
 
 ### Analysis of Outcomes Based on Launch Date
-A line chart was created to show the relationships between the outcomes and the launch month. First, a variable for year was added to include in a pivot table with parent crowdfunding category data. The pivot table includes columns for the outcomes "canceled," "failed," and "successful," as well as a total campaigns. The rows included each month of the year. 
+A line chart was created to show the relationships between theater outcomes and the launch month. First, a variable for year was added to include in a pivot table with parent crowdfunding category data. The pivot table includes columns for the outcomes "canceled," "failed," and "successful," as well as a total theater campaigns. The rows included each month of the year. 
+![Theater Outcomes vs Launch Month](Resources/Theater_Outcomes_vs_Launch.png)
 
 
 ### Analysis of Outcomes Based on Goals
 A line chart was created to show the relationship between currency goal amounts and the percentages of different outcomes. First, the COUNTIFS function was used to get counts of successful, failed, canceled, and total projects for each of 12 binned goal amounts. These were converted to percentages and graphed. 
 ![Outcomes vs Goals](Resources/Outcomes_vs_Goals.png)
-!Resources/Outcomes_vs_Goals.png
 
 
 ### Challenges and Difficulties Encountered
